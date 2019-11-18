@@ -11,7 +11,7 @@ then send a "BBBBB" as an argument
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/snowball/3.png)
 
 
-here it moves out input into "var_40" , so lets rename it to "input" ....
+here it moves our input into "var_40" , so lets rename it to "input" ....
 
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/snowball/4.png)
 
