@@ -16,7 +16,7 @@ here it moves our input into "var_40" , so lets rename it to "input" ....
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/snowball/4.png)
 
 
-here there is two thins , first it check if the length of our input is less than or equal to 4 , the other this is that it combine each char in our input into one variabl "var_50"
+here there is two thins , first it check if the length of our input is less than or equal to 4 , the other is that it combining each char in our input into one variabl "var_50"
 
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/snowball/5.png)
 
