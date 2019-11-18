@@ -24,7 +24,7 @@ here it move the result of compination into RAX  which is "14A"
 
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/snowball/6.png)
 
-here it compar out input with "14C" .....
+here it compar our input with "14C" .....
 
 
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/snowball/7.png)
