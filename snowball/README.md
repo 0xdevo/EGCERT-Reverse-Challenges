@@ -33,7 +33,7 @@ this is the bad message
 
 so lets calculate the right input
 
-if we divide the the right input wiche is  "14C" into 5
+if we divide the the right input which is "14C" into 5
 
 14Ch / 5h = 42
 
