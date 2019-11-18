@@ -37,7 +37,7 @@ if we divide the the right input which is "14C" into 5
 
 14Ch / 5h = 42
 
-42h * 5h = 14A   and this is the value we submit , so to  get the right value we need to replace the last "B" from the input with something else
+42h * 5h = 14A   and this is the value that we submit , so to  get the right value we need to replace the last "B" from the input with something else
 
 like "C" 
 
