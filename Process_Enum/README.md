@@ -18,7 +18,7 @@ and ...
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/Process_Enum/3.png)
 
 
-it print the computer name and if you notice there someting called "labtop-CTFGeek" in the strings  so lets change the computer name to this
+it printes the computer name and if you notice there someting called "labtop-CTFGeek" in the strings  so lets change the computer name to this
 
 and finally got the flag
 
