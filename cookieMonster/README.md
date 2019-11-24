@@ -7,7 +7,7 @@ First we have the TLS callback  ,this used to detect if you run the app in debug
 ![2](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/cookieMonster/2.png)
 </br>Here it moves some values that will be used to generate the flag</br>
 ![3](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/cookieMonster/3.png)
-To find the main function i look at the strings and jump into the function that contains "EGCTF" keyword
+</br>To find the main function i look at the strings and jump into the function that contains "EGCTF" keyword
 
 when we run this app it start looking for folder called "th3_Pl4tE" open it and start to gather the existing files you can see this behavior using "Procmon"
 
