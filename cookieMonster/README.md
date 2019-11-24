@@ -1,7 +1,7 @@
 
 cookieMonster write-up
 
-First we have the TLS callback  ,this used to detect if you run the app in debugger or not So let's patch it so we can avoid any issue Change this "jnz" to "jz"
+First we have the TLS callback  ,this used to detect if you run the app in debugger or not So let's patch it so we can avoid any issue Change this "jnz" to "jz" </br>
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/cookieMonster/1.png)
 This too
 ![2](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/cookieMonster/2.png)
