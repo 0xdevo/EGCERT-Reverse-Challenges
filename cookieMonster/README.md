@@ -13,7 +13,7 @@ when we run this app it start looking for folder called "th3_Pl4tE" open it and 
 
 So let’s create this folder and create 5 files with random names and we will know why 5 later
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/cookieMonster/4.png)
-Now let’s go to the function that generate part of the flag
+</br>Now let’s go to the function that generate part of the flag
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/cookieMonster/5.png)
 i called it generate_1
 mov cl,[esi+edx]
