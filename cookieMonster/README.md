@@ -11,9 +11,9 @@ First we have the TLS callback  ,this used to detect if you run the app in debug
 
 when we run this app it start looking for folder called "th3_Pl4tE" open it and start to gather the existing files you can see this behavior using "Procmon"
 
-So let’s create this folder and create 5 files with random names and we will know why 5 later
+So let’s create this folder and create 5 files with random names and we will know why 5 later</br>
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/cookieMonster/4.png)</br>
-</br>Now let’s go to the function that generate part of the flag
+</br>Now let’s go to the function that generate part of the flag</br>
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/cookieMonster/5.png)</br>
 i called it generate_1</br>
 mov cl,[esi+edx]</br>
@@ -41,7 +41,7 @@ so the right word will be “marshmallow “</br>
 
 after the comparison is finished it going to generate the second part of the flag , i called the function “generate_2”</br>
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/cookieMonster/7.png)</br>
-what this function dose is take the third char of "Monster" word which is s = 0x73 and increment it with 1 then xor it with the first char of the second file it continue do this 9 times which is the length of the file name
+what this function dose is take the third char of "Monster" word which is s = 0x73 and increment it with 1 then xor it with the first char of the second file it continue do this 9 times which is the length of the file name</br>
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/cookieMonster/8.png)</br>
 here it compare the encoded char with the right one so let’s invert the right chars to get the original value</br>
 74 xor 17 = c</br>
