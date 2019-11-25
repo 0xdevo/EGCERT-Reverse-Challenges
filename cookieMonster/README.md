@@ -15,20 +15,20 @@ So let’s create this folder and create 5 files with random names and we will k
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/cookieMonster/4.png)
 </br>Now let’s go to the function that generate part of the flag
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/cookieMonster/5.png)
-i called it generate_1
-mov cl,[esi+edx]
-This takes the first char of the "abcdef" file and save it into cl register
-lea edx,[edx+1]
-This points to the place where the generated chars will be saved
-inc eax
-This will increment the eax value with "1" , BTW the eax value is "6f" so it will be 70
-xor cl,al
-Here it will xor the value "70" with the first char which is "61"
-mov [edx-1],cl
-It move the result into this place "[edx-1]"
-sub edi,1
-Decrement the edi by 1 
-And if you look at the "edi" value it will equal to 0xC and out filename is only 0x6 so let’s modify it and continue
+i called it generate_1</br>
+mov cl,[esi+edx]</br>
+This takes the first char of the "abcdef" file and save it into cl register</br>
+lea edx,[edx+1]</br>
+This points to the place where the generated chars will be saved</br>
+inc eax</br>
+This will increment the eax value with "1" , BTW the eax value is "6f" so it will be 70</br>
+xor cl,al</br>
+Here it will xor the value "70" with the first char which is "61"</br>
+mov [edx-1],cl</br>
+It move the result into this place "[edx-1]"</br>
+sub edi,1</br>
+Decrement the edi by 1 </br>
+And if you look at the "edi" value it will equal to 0xC and out filename is only 0x6 so let’s modify it and continue</br>
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/cookieMonster/6.png)
 The "unk_1338520" contain the right charter but encoded and it compare it with the generated charters of the first file
 So in order to get the right char we need to invert the xor formula
