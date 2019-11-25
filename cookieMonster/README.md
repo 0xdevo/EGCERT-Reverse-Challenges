@@ -47,7 +47,7 @@ here it compare the encoded char with the right one so let’s invert the right 
 74 xor 17 = c</br>
 75 xor 45 = 0</br>
 76 xor 19 = o</br>
-And the right word is "c0ocKi3z_"</br>
+And the right word is "c0ocKi3z_"</br></br>
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/cookieMonster/9.png)
 This is the last function that generate the flag so by now it should be understood how to get the flag from this one
 so the right value is "m1Lk"</br></br>
