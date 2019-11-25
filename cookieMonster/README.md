@@ -30,16 +30,16 @@ sub edi,1</br>
 Decrement the edi by 1 </br>
 And if you look at the "edi" value it will equal to 0xC and out filename is only 0x6 so let’s modify it and continue</br>
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/cookieMonster/6.png)
-The "unk_1338520" contain the right charter but encoded and it compare it with the generated charters of the first file
-So in order to get the right char we need to invert the xor formula
-We know that the generate function start from 70 after increment
-So
+the “unk_1338520” contain the right charters but encoded and it compare it with the generated charters of the first file
+so in order to get the right char we need to invert the xor formula
+we know that the generate function start from 70 after increment
+so
 70 xor 1D = m
 71 xor 10 = a
 72 xor 0 = r
-so the right word will be "marshmallow "
+so the right word will be “marshmallow “
 
-After the competition is finished it going to generate the second part of the flag, i called the function "generate_2"
+after the comparison is finished it going to generate the second part of the flag , i called the function “generate_2”
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/cookieMonster/7.png)
 what this function dose is take the third char of "Monster" word which is s = 0x73 and increment it with 1 then xor it with the first char of the second file it continue do this 9 times which is the length of the file name
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/cookieMonster/8.png)
