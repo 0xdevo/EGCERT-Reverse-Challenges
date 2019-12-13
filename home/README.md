@@ -1,9 +1,4 @@
 
-writeup
-
-writeup
-hello , this is devo
-
 this exe is build using GO language , you will notice that if you look at the strings and by the strange functions name in IDA
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/1.png)
 Now if we run the program it will ask for two argument  , so let’s go to the debugger and look at what it does with this arguments
