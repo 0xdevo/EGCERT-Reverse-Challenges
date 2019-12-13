@@ -55,7 +55,7 @@ then we start the loop from that address with step of 0x10 , extract the address
 this is python script to do that
 
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/10.png)</br>
-Dword(ptr)  extract the dword value from specific address
+Dword(ptr)  extract the dword value from specific address</br>
 GetManyBytes  extract multiple values from specific address , the 64 is length of the hash
 
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/11.png)
