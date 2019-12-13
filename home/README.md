@@ -26,8 +26,8 @@ This function compare the encrypted characters from our input with the first and
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/7.png)</br>
 Here the compare is happen 
 It compare our input
-'ac0b52a2ae6ef99999bc08fb31e19188bf0085a4614204068e677e140e1458be' =  ‘do’
-with this hash
+'ac0b52a2ae6ef99999bc08fb31e19188bf0085a4614204068e677e140e1458be' =  ‘do’</br>
+with this hash</br>
 'd72b887f3e2ab73218b300e417f35f36bc6750e57d6188a3e269d6bd1134c7bad' </br>
 but this hash cannot be decrypted because it had an additional character at the end which is ‘d’
 so after removing it 
