@@ -28,15 +28,15 @@ Here the compare is happen
 It compare our input
 'ac0b52a2ae6ef99999bc08fb31e19188bf0085a4614204068e677e140e1458be' =  ‘do’</br>
 with this hash</br>
-'d72b887f3e2ab73218b300e417f35f36bc6750e57d6188a3e269d6bd1134c7bad' </br>
-but this hash cannot be decrypted because it had an additional character at the end which is ‘d’
-so after removing it 
-'d72b887f3e2ab73218b300e417f35f36bc6750e57d6188a3e269d6bd1134c7ba' = ‘E}’
-the first and last char from the flag
-so we can repeat this method to collect the flag
-for example the second hash of the flag will be
-'954edbbc5f5c2074629bd1c9f2d76ebffd42111688e6782d8ebe3a1e28d08652' = ‘Ge’
-so combining them will be  ‘EGe}’
+d72b887f3e2ab73218b300e417f35f36bc6750e57d6188a3e269d6bd1134c7bad</br>
+but this hash cannot be decrypted because it had an additional character at the end which is ‘d’</br>
+so after removing it </br>
+d72b887f3e2ab73218b300e417f35f36bc6750e57d6188a3e269d6bd1134c7ba = ‘E}’</br>
+the first and last char from the flag</br>
+so we can repeat this method to collect the flag</br>
+for example the second hash of the flag will be</br>
+954edbbc5f5c2074629bd1c9f2d76ebffd42111688e6782d8ebe3a1e28d08652 = ‘Ge’</br>
+so combining them will be  ‘EGe}’</br>
 And so on until you get the flag , but if the length of our input doesn’t match the length of the flag so after couple of times the program will exist , so I try a lot of times with different lengths  until I got the flag
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/8.png)
 
