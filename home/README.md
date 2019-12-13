@@ -20,6 +20,7 @@ Here it get the last char from the second input wich is ‘o’
 This function ‘runtime_concatstring2’ concat  the ‘d’ and ‘o’ together  
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/5.2.png)</br>
 This function ‘crypto_sha256___digest__Sum’ encrypt the  ‘do’ with sha256 algorithm  to be compared with the first and last char of the flag
+
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/6.png)</br>
 This function compare the encrypted characters from our input with the first and last char from the flag 
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/7.png)</br>
