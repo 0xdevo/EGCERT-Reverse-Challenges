@@ -16,13 +16,13 @@ Here it add the argument length in ‘rbx’ which is 8 , then loop throw them
 This function ‘runtime_intstring’ get the first char from the first input which is ‘d’
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/4.png)</br>
 Here it get the last char from the second input wich is ‘o’
-![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/5.1.png)
+![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/5.1.png)</br>
 This function ‘runtime_concatstring2’ concat  the ‘d’ and ‘o’ together  
-![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/5.2.png)
+![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/5.2.png)</br>
 This function ‘crypto_sha256___digest__Sum’ encrypt the  ‘do’ with sha256 algorithm  to be compared with the first and last char of the flag
-![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/6.png)
+![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/6.png)</br>
 This function compare the encrypted characters from our input with the first and last char from the flag 
-![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/7.png)
+![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/7.png)</br>
 Here the compare is happen 
 It compare our input
 ac0b52a2ae6ef99999bc08fb31e19188bf0085a4614204068e677e140e1458be =  ‘do’
