@@ -12,9 +12,9 @@ I looked at ‘main_main’ and didn’t find any thing useful  , ‘main_not_lo
 Now let’s run the program with this arguments ‘devo’ and ‘devo’  and put a breakpoint in ‘main_not_log’ function
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/2.png)
 Here it add the argument length in ‘rbx’ which is 8 , then loop throw them
-![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/3.png)
+![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/3.png)</br>
 This function ‘runtime_intstring’ get the first char from the first input which is ‘d’
-![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/4.png)
+![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/4.png)</br>
 Here it get the last char from the second input wich is ‘o’
 ![1](https://raw.githubusercontent.com/devodevo1/EGCERT-Reverse/master/home/5.1.png)
 This function ‘runtime_concatstring2’ concat  the ‘d’ and ‘o’ together  
